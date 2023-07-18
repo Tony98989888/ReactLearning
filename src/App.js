@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import SimpleTextComponent from './Components/SimpleTextComponent';
+import logo from "./logo.svg";
+import "./App.css";
+import Gallery from "./Components/PortraitComponent";
+import { ProfileTitle } from "./Components/PortraitComponent";
 
 function App() {
   return (
     <div className="App">
-      <SimpleTextComponent/>
+      <ProfileTitle></ProfileTitle>
+      <Gallery></Gallery>
     </div>
   );
 }
